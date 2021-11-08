@@ -11,14 +11,25 @@ public class forloopsnotes {
         }
         */
 
+        for (int x = 10; x == 0; x -= 1) {
+            System.out.println(x);
+        }
+
         System.out.println("While loop:");
         
         //declare a variable named x with the value 10
+
+        int x = 10;
 
         //Create a while loop that iterates from 10 to 1 and prints every number
         /* while (condition) {
                 do stuff
         } */
+
+        while (x > 0) {
+            System.out.println(x);
+            x -= 1;
+        }
         
     }
 }
